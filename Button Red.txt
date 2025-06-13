@@ -1,0 +1,28 @@
+.btn {
+  -webkit-border-radius: 35px;
+  -moz-border-radius: 35px;
+  border-radius: 35px;
+  -webkit-box-shadow: 3px 3px 14px #616161;
+  -moz-box-shadow: 3px 3px 14px #616161;
+  box-shadow: 3px 3px 14px #616161;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 26px;
+  background: #e02424;
+  padding: 10px 20px 10px 20px;
+  border: solid #ffffff 2px;
+  text-decoration: none;
+  position: absolute;
+  right: 200px;
+  bottom: 100px;
+}
+
+.btn:hover {
+  background: #fc3c3c;
+  background-image: -webkit-linear-gradient(top, #fc3c3c, #c23838);
+  background-image: -moz-linear-gradient(top, #fc3c3c, #c23838);
+  background-image: -ms-linear-gradient(top, #fc3c3c, #c23838);
+  background-image: -o-linear-gradient(top, #fc3c3c, #c23838);
+  background-image: linear-gradient(to bottom, #fc3c3c, #c23838);
+  text-decoration: none;
+}

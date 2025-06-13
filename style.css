@@ -1,0 +1,226 @@
+#index {
+   background-image: url("ramen 2.jpg");
+   background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover;
+background-size: 100% 100%;
+color: white;
+}
+/* .logo-image {
+   width: 200px;
+   height: 150px;
+   border-radius: 50%;
+   display: inline-block;
+   overflow: hidden;
+   margin-top: -6px;
+} */
+.text {
+  position: absolute;
+  top: 150px;
+  left: 50px;
+  /* font-family: Anton, sans-serif; */
+
+}
+.p-1 {
+  color: #de3e63;
+  /* font-size: 25px; */
+  font-weight: bold;
+    /* font-family: Dancing Script, cursive; */
+}
+#navbar {
+/* width: 150px;
+height: 100px; */
+display: inline;
+
+}
+
+.navbar-brand {
+  font-family: 'Kaushan Script', cursive;
+  /* font-weight: bold; */
+  font-size: 40px;
+}
+
+/* #navbar:hover {
+  background: #ffffff;
+  text-decoration: none;
+} */
+
+.btn {
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 25px;
+  background: #d9183e;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  position: absolute;
+    right: 200px;
+    bottom: 100px;
+}
+
+.btn:hover {
+  background: #de3e63;
+  background-image: -webkit-linear-gradient(top, #de3e63, #cc2d4f);
+  background-image: -moz-linear-gradient(top, #de3e63, #cc2d4f);
+  background-image: -ms-linear-gradient(top, #de3e63, #cc2d4f);
+  background-image: -o-linear-gradient(top, #de3e63, #cc2d4f);
+    color: #ffffff;
+  background-image: linear-gradient(to bottom, #de3e63, #cc2d4f);
+  text-decoration: none;
+}
+
+
+
+
+/*Contact */
+#Contact {
+background-image: url("coffee.jpg");
+/* background-repeat: no-repeat;
+background-attachment: fixed; */
+background-size: cover;
+background-position: center;
+/* background-size: 100% 100%; */
+  color: white;
+}
+.head {
+color: #de3e63;
+margin: auto 650px;
+}
+
+/* Form */
+
+#form {
+ font-family: sans-serif;
+ margin:120px;
+
+}
+
+.form {
+background-color: rgba(0, 0, 0, 0.5);
+width: 100%;
+border-radius: 10px;
+border: 1px solid rgba(225, 255, 255, 0.3);
+box-shadow: 2px 2px 15px;
+rgba(0, 0, 0, 0.3);
+color:#fff;
+padding:20px 30px;
+width: 50%;
+}
+
+.form-label {
+
+font-weight: bold;
+
+}
+
+.btn1 {
+  background-color:  #de3e63;
+  background-image: -webkit-linear-gradient(top, #de3e63, #de3e63);
+  background-image: -moz-linear-gradient(top, #de3e63, #de3e63);
+  background-image: -ms-linear-gradient(top, #de3e63, #de3e63);
+  background-image: -o-linear-gradient(top, #de3e63, #de3e63);
+  background-image: linear-gradient(to bottom, #de3e63, #de3e63);
+  -webkit-border-radius: 7;
+  -moz-border-radius: 7;
+  border-radius: 7px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 18px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn1:hover {
+  background: #db5c7a;
+  background-image: -webkit-linear-gradient(top, #db5c7a, #d13459);
+  background-image: -moz-linear-gradient(top, #db5c7a, #d13459);
+  background-image: -ms-linear-gradient(top, #db5c7a, #d13459);
+  background-image: -o-linear-gradient(top, #db5c7a, #d13459);
+  background-image: linear-gradient(to bottom, #db5c7a, #d13459);
+  text-decoration: none;
+}
+.btn2 {
+  background: #de3e63;
+  background-image: -webkit-linear-gradient(top, #de3e63, #de3e63);
+  background-image: -moz-linear-gradient(top, #de3e63, #de3e63);
+  background-image: -ms-linear-gradient(top, #de3e63, #de3e63);
+  background-image: -o-linear-gradient(top, #de3e63, #de3e63);
+  background-image: linear-gradient(to bottom, #de3e63, #de3e63);
+  -webkit-border-radius: 7;
+  -moz-border-radius: 7;
+  border-radius: 7px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 15px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  position: absolute;
+  right: 150px;
+  bottom: 100px;
+}
+
+.btn2:hover {
+  background: #db5c7a;
+  background-image: -webkit-linear-gradient(top, #db5c7a, #d13459);
+  background-image: -moz-linear-gradient(top, #db5c7a, #d13459);
+  background-image: -ms-linear-gradient(top, #db5c7a, #d13459);
+  background-image: -o-linear-gradient(top, #db5c7a, #d13459);
+  background-image: linear-gradient(to bottom, #db5c7a, #d13459);
+  text-decoration: none;
+}
+
+
+/* Menu */
+#Menu {
+  /* background-image: url("Menu top.jpg");
+  background-repeat: no-repeat;
+background-attachment: fixed; */
+/* background-size: cover;
+background-size: 100% 100%; */
+/* width: 100%; */
+background-color: black;
+margin-top: 0px;
+}
+
+.Menu-top {
+width: 100%;
+/* border: 2px solid whitesmoke; */
+}
+
+.roll {
+  position: absolute;
+  right: 4rem;
+  top: 10.5rem;
+  width: 45%;
+  height: 70%;
+  margin-top: 0px;
+  border: 3px solid whitesmoke;
+
+}
+
+/* .chicken-ramen {
+  position: absolute;
+  right: 7.5rem;
+  top: 30.5rem;
+  width: 30%;
+  height: auto;
+  margin-top: 0px;
+  border: 3px solid whitesmoke;
+  z-index: 1;
+} */
+
+.menu-img {
+
+  position: absolute;
+  top: 7rem;
+  left: 1rem;
+
+}
+
+.menu {
+  width: 40rem;
+  height: auto;
+
+}
